@@ -1,15 +1,24 @@
 import logo from './assets/logo.svg'
-import Navigation from './Navigation';
+import './Footer.css'
 
 function Footer() {
     return (
         <footer>
-            <img src={logo} alt='little lemon logo'/>
-            <div>
-                <h4>Dormat Navigation</h4>
-                <Navigation />
+            <div className="footer-logo">
+                <img src={logo} alt="little lemon logo"/>
             </div>
-            <div>
+            <div className="dormat-navigation">
+                <h4>Dormat Navigation</h4>
+                <ul>
+                    <li><a href="/home">Home</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/menu">Menu</a></li>
+                    <li><a href="/reservations">Reservations</a></li>
+                    <li><a href="/order-online">Order Online</a></li>
+                    <li><a href="/log-in">Log in</a></li>
+                </ul>
+            </div>
+            <div className="contact">
                 <h4>Contact</h4>
                 <ul>
                     <li>Address</li>
@@ -17,7 +26,7 @@ function Footer() {
                     <li>Email</li>
                 </ul>
             </div>
-            <div>
+            <div className="social-media">
                 <h4>Social Media Links</h4>
                 <ul>
                     <li><a href="https://facebook.com">Facebook</a></li>
