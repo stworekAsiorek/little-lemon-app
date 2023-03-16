@@ -9,6 +9,12 @@ footer ul{
     overflow: hidden;
 }
 
+footer li{
+    font-family: 'karla';
+    font-size: 16pt;
+    font-weight: 500;
+}
+
 footer li a {
   display: block;
   color: #333333;
@@ -34,4 +40,10 @@ footer div{
 
 .social-media{
     grid-column: 9/span 2;
+}
+
+h4{
+    font-family: 'karla';
+    font-size: 20pt;
+    font-weight: 800;
 }

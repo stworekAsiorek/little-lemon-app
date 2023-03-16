@@ -21,4 +21,7 @@ nav li a {
     text-align: center;
     padding-right: 2em;
     text-decoration: none;
+    font-family: karla;
+    font-size: 20pt;
+    font-weight: 800;
 }
