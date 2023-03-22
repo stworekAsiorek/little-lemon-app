@@ -19,9 +19,10 @@ nav li a {
     display: block;
     color: #333333;
     text-align: center;
-    padding-right: 2em;
+    padding-right: 0.72em;
     text-decoration: none;
-    font-family: karla;
-    font-size: 20pt;
+    font-family: 'karla';
+    font-size: 20px;
     font-weight: 800;
+    text-transform: uppercase;
 }

@@ -1,0 +1,59 @@
+div.chicago-text{
+    grid-column: 3/span 4;
+    padding-bottom: 100px;
+}
+
+div.chicago-text h1{
+    font-family: 'Markazi Text';
+    font-weight: 500;
+    font-size: 64px;
+    color: #F4CE14;
+}
+
+div.chicago-text h2{
+    font-family: 'Markazi Text';
+    font-weight: 400;
+    font-size: 40px;
+    /* color: #EDEFEE; */
+}
+
+div.chicago p{
+    font-family: 'Karla';
+    font-weight: 800;
+    font-size: 16px;
+    /* color: #EDEFEE; */
+}
+
+div.chicago-images{
+    grid-column: 7/span 4;
+    position: relative;
+}
+
+div.chicago-images img{
+    width: 300px;
+    height: auto;
+    border-radius: 16px;
+    margin-top: 20px;
+}
+
+#Mario-and-Adrian-A{
+    position: absolute;
+    top: 100px;
+    left: 120px;
+}
+
+#restaurant-chef-b{
+    position: absolute;
+    top: 250px;
+    left: 20px;
+}
+
+div.background-chicago{
+    position: absolute;
+    background-color: #495E57;
+    left: 0;
+    right: 0;
+    min-width: 1440px;
+    height: 563px;
+    z-index: -1;
+}

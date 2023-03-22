@@ -2,8 +2,11 @@ header{
     grid-column: 3/span 2;
     display: flex;
     align-items: center;
+    align-content: center;
+    height: 100px;
 }
 
-img{
-    width: 70%;
-}
+header img {
+    max-width: 90%;
+    height: auto;
+  }

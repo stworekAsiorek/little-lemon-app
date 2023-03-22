@@ -1,0 +1,28 @@
+div.testimonials-title{
+    grid-column: 3/span 8;
+    padding-bottom: 50px;
+}
+
+div.testimonials-title h1 {
+    font-family: 'Markazi Text';
+    font-weight: 500;
+    font-size: 64px;
+    text-align: center;
+}
+
+div.testimonials{
+    grid-column: 3/span 8;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 150px;
+}
+
+div.background-testimonials{
+    position: absolute;
+    background-color: #FBDABB;
+    left: 0;
+    right: 0;
+    min-width: 1440px;
+    height: 563px;
+    z-index: -1;
+}

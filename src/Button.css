@@ -1,0 +1,10 @@
+button{
+    border: none;
+    border-radius: 8px;
+    font-family: 'Karla';
+    font-weight: 800;
+    font-size: 16px;
+    text-align: center;
+    width: 200px;
+    height: 40px;
+}
