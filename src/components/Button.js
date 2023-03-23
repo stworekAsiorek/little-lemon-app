@@ -2,9 +2,9 @@ import './Button.css'
 
 function Button(props){
     return (
-        <a href={props.href}>
-            <button style={props.style}>{props.text}</button>
-        </a>
+            <button style={props.style}>
+                <a href={props.href}>{props.text}</a>
+            </button>
     )
 }
 

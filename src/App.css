@@ -38,6 +38,11 @@ p{
   font-weight: 400;
 }
 
+a{
+  color: #333333;
+  text-decoration: none;
+}
+
 .highlight{
   font-weight: 800;
 }
