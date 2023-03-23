@@ -12,27 +12,6 @@ div.background-call-to-action{
     z-index: -1;
 }
 
-div.call-to-action-text h1{
-    font-family: 'Markazi Text';
-    font-weight: 500;
-    font-size: 64px;
-    color: #F4CE14;
-}
-
-div.call-to-action-text h2{
-    font-family: 'Markazi Text';
-    font-weight: 400;
-    font-size: 40px;
-    color: #EDEFEE;
-}
-
-div.call-to-action-text p{
-    font-family: 'Karla';
-    font-weight: 800;
-    font-size: 16px;
-    color: #EDEFEE;
-}
-
 div.call-to-action-image{
     grid-column: 7/span 4;
     text-align: right;

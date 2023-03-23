@@ -17,12 +17,6 @@ div.specials-header > div{
     text-align: right;
 }
 
-div.specials-header h1{
-    font-family: 'Markazi Text';
-    font-weight: 500;
-    font-size: 64px;
-}
-
 div.specials{
     display: flex;
     gap: 40px;

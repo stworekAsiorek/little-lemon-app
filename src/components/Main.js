@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './Main.css'
-import HomePage from './HomePage'
-import BookingPage from './BookingPage'
+import HomePage from './homePage/HomePage'
+import BookingPage from './bookingPage/BookingPage'
 import React from 'react'
 
 function Main() {

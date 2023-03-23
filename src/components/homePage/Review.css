@@ -9,7 +9,6 @@ div.review{
 }
 
 div.review h3{
-    font-family: karla;
     font-size: 20px;
     font-weight: 800;
     padding: 5px 20px 5px 20px;
@@ -36,9 +35,5 @@ div.review p{
 }
 
 div.review h4{
-    font-family: 'Karla';
-    font-size: 16px;
-    font-weight: 800;
     padding: 5px 20px 5px 20px;
-    color: black;
 }

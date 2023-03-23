@@ -1,5 +1,5 @@
 import './CustomersSay.css'
-import profilePicture from "./assets/profile picture.jpg"
+import profilePicture from "../../assets/profile picture.jpg"
 import Review from './Review';
 
 const reviews = [

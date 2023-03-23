@@ -1,5 +1,5 @@
 import './Special.css'
-import basket from './assets/basket .svg'
+import basket from '../../assets/basket .svg'
 
 function Specials(props){
     return (

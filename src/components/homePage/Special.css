@@ -24,15 +24,12 @@ div.title-and-price h3, h4{
 }
 
 div.title-and-price h3{
-    font-family: 'Karla';
     font-size: 16px;
     font-weight: 700;
 }
 
 div.title-and-price h4{
     text-align: right;
-    font-family: 'Karla';
-    font-size: 16px;
     font-weight: 500;
     color: #EE9972;
 }
@@ -41,12 +38,6 @@ div.special img{
     width: 100%;
     height: 50%;
     border-radius: 16px 16px 0px 0px;
-}
-
-div.description p{
-    font-family: 'Karla';
-    font-size: 16px;
-    font-weight: 400;
 }
 
 div.description a{

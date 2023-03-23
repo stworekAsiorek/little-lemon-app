@@ -1,9 +1,9 @@
 import './Specials.css'
-import Button from './Button';
+import Button from '../Button';
 import Special from './Special'
-import bruschetta from './assets/bruchetta.jpg'
-import lemonDessert from './assets/lemon dessert.jpg'
-import greekSalad from './assets/greek salad.jpg'
+import bruschetta from '../../assets/bruchetta.jpg'
+import lemonDessert from '../../assets/lemon dessert.jpg'
+import greekSalad from '../../assets/greek salad.jpg'
 
 const description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget tellus et purus fringilla aliquam. Praesent aliquam enim.'
 
@@ -21,7 +21,7 @@ function Specials(){
                 <h1>Specials</h1>
             </div>
             <div id='button'>
-                <Button text='Online Menu' href='/order-online' style={{backgroundColor: '#F4CE14'}}/>
+                <Button text='Online Menu' href='/order-online' style={{backgroundColor: '#F4CE14', color: '#333333'}}/>
             </div>
         </div>
         <div className="specials">
