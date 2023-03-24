@@ -1,0 +1,31 @@
+div.call-to-home{
+    grid-column: 3/span 4;
+    height: 400px;
+}
+
+div.background-call-to-home{
+    position: absolute;
+    background-color: #495E57;
+    left: 0;
+    right: 0;
+    min-width: 1440px;
+    height: 400px;
+    z-index: -1;
+}
+
+div.call-to-home h1{
+    text-transform: capitalize;
+}
+
+div.call-to-home-image{
+    grid-column: 7/span 4;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#Mario-and-Adrian-b{
+    width: 100%;
+    height: auto;
+    border-radius: 16px;
+}
