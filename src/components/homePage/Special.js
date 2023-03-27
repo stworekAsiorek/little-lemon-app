@@ -15,9 +15,7 @@ function Specials(props){
                         {props.description}
                     </p>
                     <a href='/order-online'>
-                        <p>
                             Order a delivery
-                        </p>
                         <img src={basket} alt='basket'/>
                     </a>
                 </div>

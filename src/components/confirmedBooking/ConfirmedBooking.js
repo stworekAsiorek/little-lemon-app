@@ -14,4 +14,4 @@ function ConfirmedBooking(){
     )
 }
 
-export default ConfirmedBooking;
+export default ConfirmedBooking; 

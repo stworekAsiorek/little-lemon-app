@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState} from 'react';
 import './BookingForm.css'
 import moment from 'moment/moment';
 import restaurant from '../../assets/restaurant.jpg'
@@ -11,8 +11,6 @@ function BookingForm(props){
         guests: 1,
         occasion: 'Birthday'
     });
-
-    useEffect(() => console.log(bookingInfo), [bookingInfo])
 
     const handleSubmit = (e) =>{
         props.submitForm(bookingInfo);
@@ -33,7 +31,7 @@ function BookingForm(props){
             <label htmlFor="res-time">Choose time</label>
             <select id="res-time" onChange={(e) => setBookingInfo({...bookingInfo, time: e.target.value})}>
                 <option style={{display: 'none'}}>Select time</option>
-                {props.state.availableTimes.map((time, index) => <option key={index}>{time}</option>)}
+                { props.state.availableTimes && props.state.availableTimes.map((time, index) => <option key={index}>{time}</option>)}
             </select>
             <label htmlFor="guests">Number of guests</label>
             <input type="number" placeholder="1" min="1" max="10" id="guests" onChange={(e) => setBookingInfo({...bookingInfo, guests: e.target.value})}/>
@@ -43,7 +41,7 @@ function BookingForm(props){
                 <option>Engagement</option>
                 <option>Anniversary</option>
             </select>
-            <input className='submit' type="submit" value="Make Your Reservation" disabled={!getIsFormValid()}/>
+            <input className='submit' type="submit" value="Make Your Reservation" disabled={!getIsFormValid()} aria-label="On Click"/>
             </form>
         </div>
         <div className='restaurant-image'>
