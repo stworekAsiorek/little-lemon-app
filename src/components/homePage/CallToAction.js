@@ -10,7 +10,7 @@ function CallToAction(){
             <h1 className='yellow'>Little Lemon</h1>
             <h2>Chicago</h2>
             <p className='light-beige highlight'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget tellus et purus fringilla aliquam.</p>
-            <Button text='Reserve a table' href='/booking' style={{backgroundColor: '#F4CE14', color: '#333333'}}/>
+            <Button text='Reserve a table' href='/booking'/>
         </div>
         <div className="call-to-action-image">
             <img src={restaurantfood} alt='restaurantfood'/>

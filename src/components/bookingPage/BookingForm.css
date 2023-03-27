@@ -1,8 +1,10 @@
 div.booking-form{
     grid-column: 3/span 2;
+    padding-bottom: 100px;
 }
 
 h1.reservation-details{
+    padding-top: 100px;
     grid-column: 3/span 8;
 }
 
@@ -30,6 +32,11 @@ input.submit{
     font-weight: 800;
 }
 
+input.submit:disabled{
+    background-color: #B8B8B8;
+    color: rgba(237, 239, 238, 0.5);
+}
+
 div.restaurant-image{
     grid-column: 5/span 6;
     display: flex;
@@ -38,7 +45,7 @@ div.restaurant-image{
 }
 
 #restaurant-image{
-    width: 90%;
+    width: 80%;
     height: auto;
     border-radius: 16px;
 }

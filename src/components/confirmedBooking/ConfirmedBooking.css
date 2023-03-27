@@ -1,0 +1,14 @@
+div.confirmed-booking{
+    grid-column: 3/span 8;
+    height: 400px;
+}
+
+div.background-confirmed-booking{
+    position: absolute;
+    background-color: #495E57;
+    left: 0;
+    right: 0;
+    min-width: 1440px;
+    height: 400px;
+    z-index: -1;
+}

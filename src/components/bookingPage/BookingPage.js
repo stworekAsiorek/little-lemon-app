@@ -2,10 +2,10 @@ import "./CallToHome"
 import CallToHome from "./CallToHome";
 import BookingForm from "./BookingForm";
 
-function BookingPage(){
+function BookingPage(props){
     return (<>
         <CallToHome/>
-        <BookingForm/>
+        <BookingForm state={props.state} dispatch={props.dispatch} submitForm={props.submitForm}/>
     </>)
 }
 
